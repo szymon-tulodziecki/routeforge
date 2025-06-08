@@ -1,0 +1,50 @@
+{
+  "name": "routeforge",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Automatic routing structure generator for React applications with YAML configuration",
+  "main": "src/index.js",
+  "bin": {
+    "routeforge": "./src/cli/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Running tests\" && exit 0",
+    "publish:npm": "npm publish --access public",
+    "publish:github": "npm publish --registry https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szymon-tulodziecki/routeforge.git"
+  },
+  "homepage": "https://github.com/szymon-tulodziecki/routeforge#readme",
+  "bugs": {
+    "url": "https://github.com/szymon-tulodziecki/routeforge/issues"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "dependencies": {
+    "commander": "^12.0.0",
+    "fs-extra": "^11.2.0",
+    "js-yaml": "^4.1.0"
+  },
+  "keywords": [
+    "react",
+    "router",
+    "routing",
+    "generator",
+    "automation",
+    "react-router-dom",
+    "cli",
+    "routeforge",
+    "yaml",
+    "scaffolding",
+    "vite"
+  ],
+  "author": "Szymon Tulodziecki <email@example.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
